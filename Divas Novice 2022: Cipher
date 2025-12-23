@@ -1,0 +1,11 @@
+n = int(input())
+message = []
+
+for i in range(n):
+    sentence = input()
+    word = ""
+    for j in range(3, len(sentence), 4):
+        word += sentence[j]
+    message.append(word)
+
+print(" ".join(message))
