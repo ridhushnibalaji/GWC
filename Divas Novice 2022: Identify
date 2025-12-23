@@ -1,0 +1,14 @@
+n = int(input())
+know = ["Mary-Jane", "Ned", "Happy", "May"]
+requiredItems = {"Shirt", "Pants", "Socks", "Shoes", "Jacket"}
+
+for i in range(n):
+    name, a = input().split() 
+    items = []
+    for j in range(int(a)):     
+        items.append(input())
+
+    if name in know or requiredItems.issubset(items):
+        print("Your secret is safe with me.")
+    else:
+        print("Your secret is out.")
