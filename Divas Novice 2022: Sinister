@@ -1,0 +1,10 @@
+def sinister(message):
+    message = message.split(" | ")
+    name = message[0]
+    problem = message[1]
+    if name not in ["Sandman", "Electro", "Doc-Ock", "Mysterio", "Lizard", "Rhino"]:
+        print(problem)
+
+n = int(input())
+for i in range(n):
+    sinister(input())
