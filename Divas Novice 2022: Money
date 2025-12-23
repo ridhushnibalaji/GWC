@@ -1,0 +1,6 @@
+n = int(input())
+total = 0.00
+for i in range(n):
+    total += float(input())
+
+print("${:.2f}".format(total))
