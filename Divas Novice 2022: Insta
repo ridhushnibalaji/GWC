@@ -1,0 +1,7 @@
+def insta(villian):
+    print("Spider-Man stopped", villian, "in their latest nefarious plot against our city! YAY SPIDEY!!!")
+while True:
+    try:
+        insta(input())
+    except:
+        break
